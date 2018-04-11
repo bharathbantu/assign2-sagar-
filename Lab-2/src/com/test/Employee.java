@@ -33,24 +33,17 @@ this.grade = grade;
 this.doj = doj; 
 id = ++count; 
 	}
-	
 	public void displayDetails(){
-		System.out.println("\n*************************");
+System.out.println("\n*************************");
 System.out.print("\nid: "+ id);
-		System.out.println("\nfirstname: "+ firstName);
-		System.out.println("\nlastName: "+ lastName);
+System.out.println("\nfirstname: "+ firstName);
+System.out.println("\nlastName: "+ lastName);
 System.out.println("\nsalary: "+ salary);
 System.out.println("\ngrade: "+ grade);
-		System.out.println("\ndoj: "+ doj);
+System.out.println("\ndoj: "+ doj);
 System.out.println("\n*************************");
 		
-	}
-	
-	
-	
-	
-	
-	
+	}	
 }
 
 
